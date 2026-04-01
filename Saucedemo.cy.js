@@ -6,7 +6,8 @@ describe(' Test Suite for the new testing' , () =>
 
         cy.visit("https://www.saucedemo.com/")
 
-    })
+    }
+)
 
     it('verify that this page link is right', () => 
     {                 

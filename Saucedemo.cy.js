@@ -10,8 +10,6 @@ describe(' Test Suite for the new testing' , () =>
 
     it('verify that this page link is right', () => 
     {                 
-        //cy.clearCookies()                          
-        //cy.reload()
 
         cy.url().should('include', 'saucedemo.com');
 
@@ -82,10 +80,7 @@ describe(' Test Suite for the new testing' , () =>
             
             cy.get('#reset_sidebar_link').click()  
 
-            cy.get("[type=button]").eq(1).click()                      
-
-            // cy.get("#remove-sauce-labs-backpack").click()       
-            // cy.get("#add-to-cart-sauce-labs-bike-light").click() 
+            cy.get("[type=button]").eq(1).click()                       
 
             for (let i = 1; i <= 3; i++) 
             
@@ -123,10 +118,7 @@ describe(' Test Suite for the new testing' , () =>
 
             cy.url().should('eq', 'https://www.saucedemo.com/')
 
-            cy.get('[placeholder="Username"]').should('be.visible')
-
-            
-            // HEy this is just totest
+            cy.get('[placeholder="Username"]').should('be.visible')         
             
     }  
 )        

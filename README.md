@@ -130,4 +130,4 @@ npx cypress run
 
 ## 📌 Notes
 
-This project is created for learning and practicing Cypress automation in a real-world E2E scenario.
+This project is created for learning and practicing Cypress automation in a real-world E2E scenario.   

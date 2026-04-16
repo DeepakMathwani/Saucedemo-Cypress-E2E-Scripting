@@ -40,7 +40,7 @@ describe(' Test Suite for the new testing' , () =>
     }
 )
 
-    it.only('verify that this page link is right', () => 
+    it('verify that this page link is right', () => 
     {          
 
             cy.log('Enter the username as the email') 
